@@ -31,9 +31,14 @@ Send 10 TSKTEST to the given address:
 tokisk token:send 10 10345234123153L
 ```
 
-Get the balance of all owned tokens:
+Get the balance of all tokens owned by the given address:
 ```
-tokisk token:balances
+tokisk token:balances 10345234123153L
+```
+
+Will returns:
+```
+TSKTEST => 10
 ```
 
 
