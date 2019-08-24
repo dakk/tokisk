@@ -13,6 +13,7 @@ npm run package
 npm start
 ```
 
+## Tokisk commander
 
 Then you can use tokisk-commander for issuing and sending a token.
 
@@ -40,6 +41,22 @@ Will returns:
 ```
 TSKTEST => 10
 ```
+
+Get all registered tokens:
+```
+tokisk token:list
+```
+
+## Api
+
+- /token/account/:address/balance: returns the balance of tokens owned by address
+
+- /token/list: returns the list of token
+
+
+## Elements
+
+We extended the elements library introducing helper functions for the new transaction types.
 
 
 ## Technical
