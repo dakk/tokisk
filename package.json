@@ -1,0 +1,33 @@
+{
+  "name": "tokisk",
+  "version": "0.2.0",
+  "description": "token lisk sidechain",
+  "main": "dist/index.js",
+  "scripts": {
+    "package": "shx rm -rf dist; tsc",
+    "start": "node dist/index.js | npx bunyan -o short"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dakk/tokisk.git"
+  },
+  "keywords": [
+    "lisk",
+    "sidechain",
+    "sdk",
+    "token"
+  ],
+  "author": "Davide Gessa [dakk] (gessadavide@gmail.com)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/dakk/tokisk/issues"
+  },
+  "homepage": "https://github.com/dakk/tokisk#readme",
+  "dependencies": {
+    "lisk-sdk": "^2.2.0"
+  },
+  "devDependencies": {
+    "shx": "^0.3.2",
+    "typescript": "^3.5.3"
+  }
+}
