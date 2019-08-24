@@ -49,9 +49,9 @@ tokisk token:list
 
 ## Api
 
-- /token/account/:address/balance: returns the balance of tokens owned by address
-
-- /token/list: returns the list of token
+- */token/account/:address/balances*: returns the balance of tokens owned by address
+- */token/account/:address/balance*: returns the balance of token owned by address
+- */token/list*: returns the list of token
 
 
 ## Elements
